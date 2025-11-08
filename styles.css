@@ -1,5 +1,5 @@
 /*  your css code here. If applicable */
-.root{
+/* .root{
 	background-color: rgb(135, 206, 235);
 }
 .first-child{
@@ -8,6 +8,23 @@
 }
 .last-child{
 	color: red;
+} */
+:root {
+    background-color: rgb(135, 206, 235);
+}
+
+/* Paragraph styling */
+article p:first-child {
+    background-color: black;
+    color: white;
+}
+
+article p:nth-child(2) {
+    color: inherit; /* default text color */
+}
+
+article p:last-child {
+    color: red;
 }
 ul li {
     width: 50%;
